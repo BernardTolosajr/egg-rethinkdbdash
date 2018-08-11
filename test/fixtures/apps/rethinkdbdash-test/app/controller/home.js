@@ -4,7 +4,8 @@ const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
   async index() {
-    this.ctx.body = 'hi, ' + this.app.plugins.rethinkdbdash.name;
+    const users = await this.app.rethinkdbdash.table('users').run();
+    this.ctx.body = users.map(user => (user.name));
   }
 }
 

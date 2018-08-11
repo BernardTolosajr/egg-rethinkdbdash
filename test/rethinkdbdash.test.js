@@ -11,13 +11,25 @@ describe('test/rethinkdbdash.test.js', () => {
     return app.ready();
   });
 
+  // initialize test data
+  beforeEach(async () => {
+    await app.rethinkdbdash.tableCreate('users').run();
+    await app.rethinkdbdash.table('users').insert({
+      name: 'mario',
+    });
+  });
+
+  afterEach(async () => {
+    await app.rethinkdbdash.tableDrop('users').run();
+  });
+
   after(() => app.close());
   afterEach(mock.restore);
 
   it('should GET /', () => {
     return app.httpRequest()
       .get('/')
-      .expect('hi, rethinkdbdash')
+      .expect([ 'mario' ])
       .expect(200);
   });
 });

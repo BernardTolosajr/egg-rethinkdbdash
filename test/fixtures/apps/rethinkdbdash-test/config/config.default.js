@@ -1,3 +1,9 @@
 'use strict';
 
-exports.keys = '123456';
+exports.keys = 'foo';
+
+exports.rethinkdbdash = {
+  client: {
+    host: '127.0.0.1',
+  },
+};
