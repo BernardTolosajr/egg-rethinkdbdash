@@ -57,7 +57,7 @@ see [rethinkdbdash](https://github.com/neumino/rethinkdbdash) for more detail.
 
 ## Example
 
-[example](https://github.com/BernardTolosajr/egg-rethinkdbdash-example)
+[rethinkdbdash-example-api](https://github.com/BernardTolosajr/egg-rethinkdbdash-example)
 
 ## Questions & Suggestions
 
