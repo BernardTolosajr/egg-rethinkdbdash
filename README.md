@@ -1,7 +1,7 @@
 # egg-rethinkdbdash
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][https://travis-ci.org/BernardTolosajr/egg-rethinkdbdash.svg?branch=master]
+[![build status][https://travis-ci.org/BernardTolosajr/egg-rethinkdbdash.svg?branch=master]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
