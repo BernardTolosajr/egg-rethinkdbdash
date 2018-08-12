@@ -20,9 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/egg-rethinkdbdash.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-rethinkdbdash
 
-<!--
-Description here.
--->
+[Egg](https://github.com/eggjs/egg/issues) rethinkdbdash plugin
 
 ## Install
 
@@ -42,17 +40,24 @@ exports.rethinkdbdash = {
 
 ## Configuration
 
+You need to put the rethinkdbdash config inside the client object.
+
 ```js
 // {app_root}/config/config.default.js
-exports.rethinkdbdash = {
+module.exports = appInfo => {
+  config.rethinkdbdash = {
+    client: {
+      host: 'localhost'
+    }
+  }
 };
 ```
 
-see [config/config.default.js](config/config.default.js) for more detail.
+see [rethinkdbdash](https://github.com/neumino/rethinkdbdash) for more detail.
 
 ## Example
 
-<!-- example here -->
+[example](https://github.com/BernardTolosajr/egg-rethinkdbdash-example)
 
 ## Questions & Suggestions
 
