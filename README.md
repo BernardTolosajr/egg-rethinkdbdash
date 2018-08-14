@@ -10,7 +10,7 @@
 [npm-image]: https://img.shields.io/npm/v/egg-rethinkdbdash.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-rethinkdbdash
 [travis-image]: https://img.shields.io/travis/eggjs/egg-rethinkdbdash.svg?style=flat-square
-[travis-url]: https://travis-ci.org/BernardTolosajr/egg-rethinkdbdash.svg?branch=master
+[travis-url]: https://travis-ci.org/BernardTolosajr/egg-rethinkdbdash
 [codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-rethinkdbdash.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/eggjs/egg-rethinkdbdash?branch=master
 [david-image]: https://img.shields.io/david/eggjs/egg-rethinkdbdash.svg?style=flat-square
