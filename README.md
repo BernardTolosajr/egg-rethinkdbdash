@@ -12,7 +12,7 @@
 [travis-image]: https://api.travis-ci.org/BernardTolosajr/egg-rethinkdbdash.svg?branch=master
 [travis-url]: https://travis-ci.org/BernardTolosajr/egg-rethinkdbdash
 [codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-rethinkdbdash.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-rethinkdbdash?branch=master
+[codecov-url]: https://codecov.io/gh/BernardTolosajr/egg-rethinkdbdash?branch=master
 [david-image]: https://img.shields.io/david/eggjs/egg-rethinkdbdash.svg?style=flat-square
 [david-url]: https://david-dm.org/eggjs/egg-rethinkdbdash
 [snyk-image]: https://snyk.io/test/npm/egg-rethinkdbdash/badge.svg?style=flat-square
