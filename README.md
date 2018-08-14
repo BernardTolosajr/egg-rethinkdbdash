@@ -53,6 +53,20 @@ module.exports = appInfo => {
 };
 ```
 
+## How to access the rethinkdbdash
+
+In controller, you can use this.app.rethinkdbdash to get the rethinkdbdash instance.
+
+```js
+// app/controller/home.js
+class HomeController extends Controller {
+  async index() {
+    const smashers = await this.app.rethinkdbdash.table('smashers').run();
+    this.ctx.body = smashers;
+  }
+}
+```
+
 see [rethinkdbdash](https://github.com/neumino/rethinkdbdash) for more detail.
 
 ## Example
